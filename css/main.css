@@ -1307,6 +1307,36 @@ header .logo a {
 	position: relative;
 	text-align: center;
 }
+
+/* Estilos para centrar el texto sobre la imagen */
+.item-wrap {
+	position: relative;
+}
+
+.folio-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	color: black;
+	background-color: (0,0,0,20);
+	/* Puedes ajustar el color del texto según lo necesites */
+}
+
+#introAll {
+	background: #363636 url(../images/4All/WhatsApp\ Image\ 2024-03-10\ at\ 7.06.36\ PM.jpeg) no-repeat center bottom;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 720px;
+	display: table;
+	position: relative;
+	text-align: center;
+}
 .intro-overlay {
 	position: absolute;
 	top: 0;
@@ -2498,6 +2528,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	background: #151515
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
@@ -2600,4 +2631,25 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+.square-holder {
+	padding: 30px !important;
+	border: 1px solid #cecece !important;
+	align-items: center !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin-bottom: 20px !important;
+	background-color: #f1f1f1 !important;
+	min-height: 200px !important;
+}
+
+.square-holder img {
+	max-width: 100% !important;
+	filter: grayscale(100%) !important;
+	transition: all 0.3s !important;
+}
+
+.square-holder:hover img {
+	filter: none !important;
+}
 /*# sourceMappingURL=main.css.map */
